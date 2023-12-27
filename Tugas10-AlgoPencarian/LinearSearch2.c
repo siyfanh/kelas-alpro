@@ -1,7 +1,8 @@
 #include <stdio.h>
 #define MAX_ELEMEN 100
 
-int main(){
+int main()
+{
     int BIL[MAX_ELEMEN];
     int N, X;
 
