@@ -14,6 +14,7 @@ void main()
 
   // baca isi file dengan gets lalu simpan ke buff
   fgets(buff, 255, fptr);
+  
   // tampilkan isi file
   printf("%s", buff);
 
