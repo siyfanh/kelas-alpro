@@ -13,7 +13,7 @@ void main()
     printf("Inputkan isi file: ");
     fgets(text, sizeof(text), stdin);
 
-    // menulis ke text ke file
+    // menulis text ke file
     fputs(text, fptr);
 
     printf("File berhasil ditulis\n");
