@@ -30,8 +30,10 @@ int main()
     }
     double time_spent = (double)(end-begin)/CLOCKS_PER_SEC;
     printf("Time spent : %f seconds\n", time_spent);
+}
 
-size_t binarySearch(const int b[], int searchKey, size_t low, size_t high){
+size_t binarySearch(const int b[], int searchKey, size_t low, size_t high)
+{
     while (low <= high)
     {
         size_t middle = (low+high)/2;
