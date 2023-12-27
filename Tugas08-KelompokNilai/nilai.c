@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-float calcNilai(float tugas, float quiz, float UTS, float UAS) {
+float calcNilai(float tugas, float quiz, float UTS, float UAS) 
+{
     return (tugas * 10 / 100) + (quiz * 20 / 100) + (UTS * 30 / 100) + (UAS * 40 / 100);
 }
 
-void displayNilaiAkhir(char* nama, char* NIM, float nilai_akhir) {
+void displayNilaiAkhir(char* nama, char* NIM, float nilai_akhir) 
+{
     char *predikat;
     char *keterangan;
 
@@ -38,7 +40,8 @@ void displayNilaiAkhir(char* nama, char* NIM, float nilai_akhir) {
     printf("Keterangan: %s\n", keterangan);
 }
 
-int main() {
+int main() 
+{
     char nama[50];
     char NIM[20];
     float tugas, quiz, UTS, UAS;
