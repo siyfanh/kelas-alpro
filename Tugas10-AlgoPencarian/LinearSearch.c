@@ -2,7 +2,9 @@
 #define SIZE 100
 int x;
 size_t linearSearch(const int array[], int key, size_t size);
-int main(void){
+
+int main(void)
+{
     int a[SIZE];
     for (size_t x = 0; x < SIZE; ++x)
     {
@@ -20,7 +22,8 @@ int main(void){
     }
 }
 
-    size_t linearSearch(const int array[], int key, size_t size){
+    size_t linearSearch(const int array[], int key, size_t size)
+{
         for (size_t n = 0; n < SIZE; ++n)
         {
             if (array[n] == key)
